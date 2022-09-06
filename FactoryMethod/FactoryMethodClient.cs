@@ -17,6 +17,5 @@ public class FactoryMethodClient : IConsumer
         healingPotion.applyPotion(player);
         strengthPotion.applyPotion(player);
 
-        // ejercicio 
     }
 }

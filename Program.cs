@@ -1,3 +1,3 @@
-﻿IConsumer consumer = new FactoryMethodClient();
+﻿IConsumer consumer = new BuilderClient();
 
 consumer.runClient();
