@@ -1,3 +1,3 @@
-﻿IConsumer consumer = new DataBaseConsumer();
+﻿IConsumer consumer = new FactoryMethodClient();
 
 consumer.runClient();
