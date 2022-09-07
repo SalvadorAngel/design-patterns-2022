@@ -1,3 +1,3 @@
-﻿IConsumer consumer = new AdapterClient();
+﻿IConsumer consumer = new Facade1Cliente();
 
 consumer.runClient();
