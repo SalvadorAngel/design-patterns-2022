@@ -1,6 +1,6 @@
 public class FactoryMethodClient : IConsumer
 {
-    // TODO refactorizar para implementar uso de factory method
+    // TODO implementa el patron de diseño factory method
     public void runClient()
     {
 

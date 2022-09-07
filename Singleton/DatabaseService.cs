@@ -1,4 +1,4 @@
-// implementa el patron de diseño Singleton
+//TODO  implementa el patron de diseño Singleton
 public class DatabaseService{
 
     public List<string> getScoreList(){

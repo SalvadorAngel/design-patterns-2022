@@ -1,6 +1,6 @@
 public class BuilderClient : IConsumer
 {
-    // TODO refactorizar para implementar uso de builder
+    // TODO implementa el patron de diseño Builder
     public void runClient()
     {
 
