@@ -1,6 +1,6 @@
 public class DataBaseConsumer : IConsumer
 {
-    // TODO refactorizar para implementar uso de singleton
+    // TODO implementa el patron de diseño singleton
     public void runClient()
     {
 
