@@ -1,3 +1,3 @@
-﻿IConsumer consumer = new AbstractFactoryClient();
+﻿IConsumer consumer = new AdapterClient();
 
 consumer.runClient();
