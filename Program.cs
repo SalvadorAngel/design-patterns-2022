@@ -1,3 +1,3 @@
-﻿IConsumer consumer = new Facade2Cliente();
+﻿IConsumer consumer = new CompositeClient();
 
 consumer.runClient();
