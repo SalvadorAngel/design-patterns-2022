@@ -1,3 +1,3 @@
-﻿IConsumer consumer = new StateClient();
+﻿IConsumer consumer = new StrategyClient();
 
 consumer.runClient();
