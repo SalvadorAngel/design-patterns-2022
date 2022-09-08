@@ -1,3 +1,3 @@
-﻿IConsumer consumer = new CompositeClient();
+﻿IConsumer consumer = new StateClient();
 
 consumer.runClient();
