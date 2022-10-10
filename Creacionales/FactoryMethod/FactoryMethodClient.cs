@@ -9,9 +9,9 @@ public class FactoryMethodClient : IConsumer
         string player = "Player 1";
 
         //TODO refactorizar para no utilizar clases concretas 
-        FireResistancePotion fireResistancePotion = new FireResistancePotion();
-        HealingPotion healingPotion = new HealingPotion();
-        StrengthPotion strengthPotion = new StrengthPotion();
+        MushroomPowerUp fireResistancePotion = new MushroomPowerUp();
+        FireFlowerPowerUp healingPotion = new FireFlowerPowerUp();
+        StarPowerUp strengthPotion = new StarPowerUp();
 
         fireResistancePotion.applyPotion(player);
         healingPotion.applyPotion(player);

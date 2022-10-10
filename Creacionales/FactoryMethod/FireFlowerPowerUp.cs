@@ -1,8 +1,8 @@
 // TODO refactorizar para implementar uso de factory method
-public class FireResistancePotion{
+public class FireFlowerPowerUp{
 
     public void applyPotion(string player){
-        Console.WriteLine($"Se aplico FireResistancePotion a {player}");
+        Console.WriteLine($"Se aplico FireFlowerPowerUp a {player}");
     }
 
 }
