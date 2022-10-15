@@ -6,7 +6,7 @@ public class DataBaseConsumer : IConsumer
 
         Console.WriteLine("Ejecución database service.");
 
-        DatabaseService databaseService = new DatabaseService();
+        DatabaseService databaseService = DatabaseService.getInstance();
 
         List<string> scores = databaseService.getScoreList();
 
