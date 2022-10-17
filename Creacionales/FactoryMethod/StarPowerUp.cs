@@ -1,7 +1,7 @@
 // TODO refactorizar para implementar uso de factory method
-public class StarPowerUp{
+public class StarPowerUp : IPowerUp{
 
-    public void applyPotion(string player){
+    public void applyPowerUp(string player){
         Console.WriteLine($"Se aplico StarPowerUp a {player}");
     }
 

@@ -1,9 +1,9 @@
 // TODO refactorizar para implementar uso de abstract factory
 // TODO agregar nueva clase con tier Diamond
-public class WoodenSword{
+public class WoodenAxe : IAxe{
 
-    public void Attack(){
-        Console.WriteLine("Attack with WoodenSword");
+    public void Cut(){
+        Console.WriteLine("Cut with WoodenAxe");
     }
 
 }

@@ -8,14 +8,16 @@ public class FactoryMethodClient : IConsumer
 
         string player = "Player 1";
 
-        //TODO refactorizar para no utilizar clases concretas 
-        MushroomPowerUp fireResistancePotion = new MushroomPowerUp();
-        FireFlowerPowerUp healingPotion = new FireFlowerPowerUp();
-        StarPowerUp strengthPotion = new StarPowerUp();
+        PowerUpFactory factory = new PowerUpFactory();
 
-        fireResistancePotion.applyPotion(player);
-        healingPotion.applyPotion(player);
-        strengthPotion.applyPotion(player);
+        //TODO refactorizar para no utilizar clases concretas 
+        IPowerUp fireFlowePoweUp = factory.GetPowerUp(PowerUpType.FireFlower);
+        IPowerUp mushroomPowerUp = factory.GetPowerUp(PowerUpType.Mushroom);
+        IPowerUp starPowerUp = factory.GetPowerUp(PowerUpType.Star);
+
+        fireFlowePoweUp.applyPowerUp(player);
+        mushroomPowerUp.applyPowerUp(player);
+        starPowerUp.applyPowerUp(player);
 
     }
 }

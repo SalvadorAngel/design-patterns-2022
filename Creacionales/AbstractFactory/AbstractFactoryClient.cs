@@ -6,9 +6,12 @@ public class AbstractFactoryClient : IConsumer
 
         Console.WriteLine("Ejecución Abstract Factory.");
 
-        WoodenSword woodenSword = new WoodenSword();
-        WoodenAxe woodenAxe = new WoodenAxe();
-        WoodenPickAxe woodenPickAxe = new WoodenPickAxe();
+
+        IToolFactory toolFactory = new WoodenToolFactory();
+
+        ISword woodenSword = toolFactory.GetSword();
+        IAxe woodenAxe = toolFactory.GetAxe();
+        IPickAxe woodenPickAxe = toolFactory.GetPickAxe();
 
         woodenAxe.Cut();
         woodenPickAxe.Pick();
